@@ -14,6 +14,7 @@ namespace ConsoleApp3
             string s = Console.ReadLine();
             double x = Convert.ToDouble(s);
             double F = 2 * Math.Cos(x);
+            Console.WriteLine($"Для значения х = { x}, F = { F}.");
         }
     }
 }
